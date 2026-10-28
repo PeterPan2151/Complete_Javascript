@@ -1,29 +1,52 @@
-let js = "amazing";
-console.log(40 + 2);
+// let js = "amazing";
+// console.log(40 + 2);
 
-console.log("Jonas");
-console.log(23);
+// console.log("Jonas");
+// console.log(23);
 
-let firstName = "Peter";
-console.log(firstName);
+// let firstName = "Peter";
+// console.log(firstName);
 
-// Excerices 1
-// let country = "Mexico";
-// let continent = "America";
-// let population = 123456789;
+// let javascriptIsFun = true;
+// console.log(javascriptIsFun);
 
-// console.log(country);
-// console.log(continent);
-// console.log(population);
+// console.log(typeof javascriptIsFun);
 
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+// // Excercises 2
+// let isIsland = false;
+// let language;
 
-console.log(typeof javascriptIsFun);
+// console.log(isIsland);
+// console.log(language);
 
-// Excercises 2
-let isIsland = false;
-let language;
+// let age = 30;
+// age = 31;
 
-console.log(isIsland);
-console.log(language);
+// const birthYear = 2000;
+
+// var job = "pogrammer";
+// job = "Farmer";
+
+// Exercise 3
+// language = 'spanish';
+// const country = 'Mexico';
+// const continent = 'America';
+// const isIsland = false;
+
+// const agePeter = 2026 - 2000;
+// console.log(agePeter);
+
+// const firstName = "Peter";
+// const lastName = "Pan";
+// console.log(firstName + " " + lastName);
+
+const firstName = "Diana";
+const job = "designer";
+const birthYear = 2006;
+const year = 2026;
+
+const diana =
+  "I'm " + firstName + " a " + (year - birthYear) + " year old " + job;
+const diana2 = `I'm ${firstName} a ${year - birthYear} year old ${job}`;
+console.log(diana);
+console.log(diana2);
