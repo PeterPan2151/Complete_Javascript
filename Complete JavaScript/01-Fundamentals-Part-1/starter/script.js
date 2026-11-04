@@ -40,13 +40,40 @@
 // const lastName = "Pan";
 // console.log(firstName + " " + lastName);
 
-const firstName = "Diana";
-const job = "designer";
-const birthYear = 2006;
-const year = 2026;
+// const firstName = "Diana";
+// const job = "designer";
+// const birthYear = 2006;
+// const year = 2026;
 
-const diana =
-  "I'm " + firstName + " a " + (year - birthYear) + " year old " + job;
-const diana2 = `I'm ${firstName} a ${year - birthYear} year old ${job}`;
-console.log(diana);
-console.log(diana2);
+// const diana =
+//   "I'm " + firstName + " a " + (year - birthYear) + " year old " + job;
+// const diana2 = `I'm ${firstName} a ${year - birthYear} year old ${job}`;
+// console.log(diana);
+// console.log(diana2);
+
+// const age = 19;
+// const isOldEnough = age >= 18;
+// console.log(isOldEnough);
+
+// if (isOldEnough) {
+//   console.log("Yes");
+// } else {
+//   console.log("False");
+// }
+
+// Excercise 4
+// const population = 32;
+// const country = "Mexico";
+// if (population > 33) {
+//   console.log(`${country}'s population is above average`);
+// } else {
+//   console.log(
+//     `${country}'s population is ${33 - population} million below average`,
+//   );
+// }
+
+// const inputYear = "2000";
+// console.log(Number(inputYear));
+// console.log(String(23));
+
+// 5 falsy values: 0, '', indefined, null, NaN
