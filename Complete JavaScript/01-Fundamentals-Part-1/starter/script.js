@@ -77,3 +77,35 @@
 // console.log(String(23));
 
 // 5 falsy values: 0, '', indefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Diana"));
+// console.log(Boolean(""));
+
+// const money = 0;
+// if (money) {
+//   console.log("Dont spend it all");
+// } else {
+//   console.log("You should get a job");
+// }
+
+// const age = 18;
+// if (age === 18) console.log("you are 18");
+
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
+
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("mon");
+    break;
+  case "tuesday":
+    console.log("Tues");
+    break;
+}
