@@ -99,13 +99,13 @@
 // console.log(hasDriversLicense || hasGoodVision);
 // console.log(!hasDriversLicense);
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday":
-    console.log("mon");
-    break;
-  case "tuesday":
-    console.log("Tues");
-    break;
-}
+// switch (day) {
+//   case "monday":
+//     console.log("mon");
+//     break;
+//   case "tuesday":
+//     console.log("Tues");
+//     break;
+// }
