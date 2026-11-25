@@ -46,26 +46,53 @@
 // console.log(yearsUntilRetirement(1991, "Peter"));
 // console.log(yearsUntilRetirement(1950, "Diana"));
 
-const friend1 = "Pter";
-const friend2 = "Diana";
-const friend3 = "Damian";
+// const friend1 = "Pter";
+// const friend2 = "Diana";
+// const friend3 = "Damian";
 
-const friends = ["Peter", "Diana", "Damian"];
-console.log(friends);
+// const friends = ["Peter", "Diana", "Damian"];
+// console.log(friends);
 
-const years = new Array(2000, 2002, 2004, 2008);
-console.log(years);
+// const years = new Array(2000, 2002, 2004, 2008);
+// console.log(years);
 
-console.log(friends[0]);
-console.log(friends[2]);
+// console.log(friends[0]);
+// console.log(friends[2]);
 
-console.log(friends.length);
-console.log(friends[friends.length - 1]);
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
 
-friends[2] = "Jay";
-console.log(friends);
+// friends[2] = "Jay";
+// console.log(friends);
 
-const firstName = "Jonas";
-const jonas = [firstName, "Schmedtmann", 2037 - 1991, "teacher", friends];
-console.log(jonas);
-console.log(jonas.length);
+// const firstName = "Jonas";
+// const jonas = [firstName, "Schmedtmann", 2037 - 1991, "teacher", friends];
+// console.log(jonas);
+// console.log(jonas.length);
+
+
+// Add Elements
+// friends.push("Erick");
+// console.log(friends);
+
+// friends.unshift("John");
+// console.log(friends);
+
+// // Remove Elements
+// friends.pop();
+// console.log(friends);
+
+// friends.shift();
+// console.log(friends);
+
+// console.log(friends.indexOf("Diana"));
+
+// console.log(friends.includes("Diana"));
+
+const jonas = {
+    firstName: "Jonas",
+    lastName: "Schmedtmann",
+    age: 2037 - 1991,
+    job: "Teacher",
+    friends: ["Peter", "Diana"]
+};
